@@ -1,0 +1,58 @@
+.loginDiv{
+    width: 100%;
+    height: 88.6vh;
+    background-color: #0F1110;
+    top: 80px;
+    left: 0;
+    position: absolute;
+
+}
+
+#image{
+    width: 80%;
+    height: 88.6vh;
+}
+
+#loginbox{
+
+    width: 300px;
+    height: 350px;
+    position: absolute;
+    top: 150px;
+    right: 150px;
+
+    background: linear-gradient(135deg, #535151, #ECEDEE);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 0, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+    background: linear-gradient(135deg, rgba(240, 240, 234, 0.13), rgba(223, 223, 220, 0.13));
+}
+
+.titleHeading{
+    color: white;
+    justify-content: center;
+    display: flex;
+}
+
+.titles{
+    color: rgb(199, 192, 192);
+  
+}
+
+#btnLogin{
+    width: 100%;
+    height: 30px;
+    border-radius: 8px;
+    margin-top: 20px;
+    background-color: #B8AA90;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.inputLogin{
+    width: 97%;
+    height: 20px;
+}
