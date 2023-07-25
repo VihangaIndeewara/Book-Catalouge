@@ -1,20 +1,23 @@
 import React, { useState } from 'react'
 import Header from '../../header/Header'
 import './Login.css';
-import { Link, parsePath, redirect } from 'react-router-dom';
-import { Home } from '../Home/Home';
+import {useNavigate } from 'react-router-dom';
+
 import axios from 'axios';
 
 
 export default function Login() {
-const [username,setUsername]=useState("");
-const [password,setPassword]=useState("");
-const [page,setPage]=useState("/login");
+
+  const navigate=useNavigate();
+
+  const [username,setUsername]=useState("");
+  const [password,setPassword]=useState("");
+  const [page,setPage]=useState("/login");
 
 
 function handleLogin(){
   axios.post('http://localhost:5000/api/login',{username:username,password:password})
-  .then((res)=>(res.data.message)=='true'?setPage("/home"):alert(res.data.message))  
+  .then((res)=>(res.data.message)=='true'?navigate("/home"):alert(res.data.message))  
   .catch((err)=>alert(err.data.message));
 }
 
@@ -53,9 +56,9 @@ function handleLogin(){
           <br/>
           
 
-         <Link to={page}>
+       
            <button id='btnLogin' type='button' onClick={handleLogin}>Login</button>
-         </Link>  
+       
   
          
         </div>
