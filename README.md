@@ -17,11 +17,12 @@ This is a react project for book manage. User can do all the CRUD for book.
 <br>
 <h3>⚡ Login Interface</h3>
 
-![Simple Book Catalogue - Google Chrome 06_25_2023 09_47_19 PM (2)](https://github.com/VihangaIndeewara/Simple-Book-Catalogue/assets/101233779/baf89075-d772-4dc4-b1fa-931989f2d127)
+![Simple Book Catalogue - Google Chrome 06_25_2023 09_47_19 PM (2)](https://github.com/VihangaIndeewara/Simple-Book-Catalouge/assets/101233779/58de3d90-d47e-4aa1-be27-5e65fb836ba1)
+
 
 <h3>⚡ Manage Book Interface</h3>
 
-![Simple Book Catalogue - Google Chrome 06_26_2023 07_16_52 PM (2)](https://github.com/VihangaIndeewara/Simple-Book-Catalogue/assets/101233779/8b25f578-5795-4260-9dfc-702fb42a7e3b)
+![Simple Book Catalogue - Google Chrome 06_26_2023 07_16_52 PM (2)](https://github.com/VihangaIndeewara/Simple-Book-Catalouge/assets/101233779/a5da0a73-d499-4200-8b2b-56844ccc0384)
 
 <br>
 <h2>License</h2>
